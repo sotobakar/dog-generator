@@ -16,6 +16,7 @@ randomShibe.addEventListener('click', async function(){
     dogBox.src = `${responseJson.message[i]}`;
     dogBox.height = 200;
     dogBox.width = 200;
+    dogBox.classList.add("border")
     dogGrid.appendChild(dogBox);
   }
 })
@@ -46,6 +47,7 @@ randomBreed.addEventListener('click', async function(){
   breedImage.src = `${responseJson.message}`;
   breedImage.height = 400;
   breedImage.width = 400;
+  breedImage.classList.add("border")
   breedGrid.appendChild(breedImage);
 })
 
