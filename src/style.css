@@ -25,15 +25,24 @@ body{
   background-color: transparent !important;
 }
 
-.dog-grid img{
+.dog-grid img, .breed-grid img{
   border: 4px solid;
 }
 .navbar{
-  background-color: #eec0c6;
-  background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);  
   font-family: 'Bubblegum Sans';
 }
-nav a{
-  color: black !important;
+nav li.nav-item a,nav .navbar-brand,nav span.navbar-text a{
+  color: white !important;
   font-size: 1.2em;
 }
+
+@media (min-width: 992px) { 
+  nav span.navbar-text a{
+    color: black !important;
+    font-size: 1.2em;
+  }
+}
+
+
