@@ -15,8 +15,8 @@ randomShibe.addEventListener('click', async function(){
     let dogBox = document.createElement('img');
     dogBox.src = `${responseJson.message[i]}`;
     dogBox.height = 200;
-    dogBox.width = 200;
-    dogBox.classList.add("border")
+    dogBox.width = 175;
+    dogBox.classList.add("border-warning","rounded","mb-4","mx-1")
     dogGrid.appendChild(dogBox);
   }
 })

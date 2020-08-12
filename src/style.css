@@ -1,1 +1,39 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('./fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/open-sans-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* Bubblegum*/
+@font-face {
+  font-family: 'Bubblegum Sans';
+  src: url('./fonts/BubblegumSans-Regular.ttf')
+}
+.container-fluid{
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
 
+}
+body{
+  font-family: 'Open Sans';
+}
+.jumbotron{
+  font-family: 'Bubblegum Sans';
+  background-color: transparent !important;
+}
+
+.dog-grid img{
+  border: 4px solid;
+}
+.navbar{
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+  font-family: 'Bubblegum Sans';
+}
+nav a{
+  color: black !important;
+  font-size: 1.2em;
+}

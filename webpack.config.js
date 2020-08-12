@@ -27,6 +27,12 @@ module.exports = {
           'file-loader',
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|svg|ttf)$/,
+        use: {
+          loader: 'url-loader',
+        },
+      },
     ],
   },
 };
